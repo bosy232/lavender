@@ -6,7 +6,8 @@ import { Menu, X, ChevronDown, Heart, Users, Mail, FileText, LogIn } from 'lucid
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Services from './components/Services';
+import Services from './components/Services'; 
+import Gallery from './components/Gallery';
 import Documents from './components/Documents';
 import Contact from './components/Contact';
 import PaymentSection from './components/PaymentSection';
@@ -22,7 +23,8 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Services />
+        <Services />  
+        <Gallery />  
         <Documents />
         <PaymentSection />
         <Contact />
